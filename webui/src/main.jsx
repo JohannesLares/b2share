@@ -60,6 +60,11 @@ const AppFrame = React.createClass({
         return (
             <div>
                 <Navbar dataRef={this.state.dataRef}  location={this.props.location}/>
+                <div className='migration col-sm-12'>
+                    <p>
+                        EUDAT B2SHARE will be migrated to a new version on 28.10.2025. Training B2SHARE will be migrated on 7.10.2025. Read more <a href="https://docs.eudat.eu/b2share/version3/" target="_blank" rel="noopener noreferrer">here</a>.
+                    </p>
+                </div>
                 <div className="container-fluid">
                     <div className="col-sm-1"/>
                     <div className="col-sm-10">
